@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Upload, FileText, ExternalLink, Trash2, Plus } from 'lucide-react';
+import { Upload, FileText, ExternalLink, Trash2, Plus, Briefcase } from 'lucide-react';
 
 interface Project {
   id: string;
@@ -274,5 +274,3 @@ export const ProjectsSection = () => {
     </div>
   );
 };
-
-import { Briefcase } from 'lucide-react';
